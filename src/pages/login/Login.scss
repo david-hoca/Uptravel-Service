@@ -1,0 +1,77 @@
+// LOGIN
+.login__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.login__backgroundImage {
+  background-image: url("../../shared/assets/images/login-reg.png");
+  width: 146px;
+  height: 100vh;
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.login__forms {
+  width: 100%;
+  max-width: 400px;
+
+  margin-left: 40px;
+}
+
+.login__home {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+
+  border-radius: 5px;
+  & span {
+    margin-left: 5px;
+  }
+
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}
+
+.login__header {
+  margin-top: 100px;
+}
+
+.login__title {
+  margin: 0;
+  margin-top: 40px;
+
+  font-weight: normal;
+}
+
+.login__terms {
+  font-weight: 300;
+  font-size: 15px;
+
+  & a {
+    color: #0079d3;
+    &:hover {
+      color: #1d8fe7;
+    }
+  }
+}
+
+.login__Isnew {
+  display: block;
+  margin-top: 30px;
+
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.login__redirectSignUp {
+  font-weight: 600;
+  color: #0079d3;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 16.5px 14px !important;
+}

@@ -1,0 +1,51 @@
+// register
+.register__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.register__backgroundImage {
+  background-image: url("../../shared/assets/images/login-reg.png");
+  width: 146px;
+  height: 100vh;
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.register__forms {
+  width: 100%;
+  max-width: 400px;
+  margin-left: 40px;
+}
+
+.register__title {
+  margin: 0;
+  font-weight: normal;
+}
+
+.register__terms {
+  font-weight: 300;
+  font-size: 15px;
+
+  & a {
+    color: #0079d3;
+    &:hover {
+      color: #1d8fe7;
+    }
+  }
+}
+
+.register__Isnew {
+  display: block;
+  margin-top: 30px;
+
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.register__redirectSignUp {
+  font-weight: 600;
+  color: #0079d3;
+}

@@ -1,0 +1,28 @@
+.jobs__title {
+  text-align: center;
+  font-weight: normal;
+}
+
+.job__up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__side-input {
+  margin-bottom: 10px;
+}
+
+.job-wrapper {
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+}
+
+.job__cardButton {
+  display: flex;
+  justify-content: flex-end;
+}

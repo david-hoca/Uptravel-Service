@@ -1,0 +1,62 @@
+// HOME
+.home__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__link {
+  display: flex;
+}
+
+.home__list {
+  display: flex;
+  align-items: center;
+}
+
+.home__item {
+  margin-left: 25px;
+  margin-right: 40px;
+
+  color: #000;
+  font-weight: 600;
+}
+
+.home__navlink:hover {
+  color: #1976d2;
+}
+
+.home__logout-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f7f7f7;
+  }
+}
+
+.home__login {
+  padding: 5px 15px;
+
+  border: 1px solid #1976d2;
+  color: #1976d2;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #1976d2;
+    color: white;
+  }
+}
+
+.danger-menu-item:hover {
+  color: white !important;
+  background-color: #fe4e4e !important;
+}
